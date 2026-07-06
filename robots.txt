@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mabarbola888-code.github.io/mabarbola-profile/sitemap.xml
