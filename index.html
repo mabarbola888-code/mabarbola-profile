@@ -2,25 +2,347 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>MABARBOLA - Official Football Information Platform</title>
-<meta name="description" content="MABARBOLA menyediakan jadwal pertandingan, prediksi sepak bola, statistik dan berita sepak bola terbaru.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MABARBOLA - Prediksi Bola, Jadwal Bola, Mixparlay & Singlebet</title>
+<meta name="description" content="MABARBOLA adalah portal informasi sepak bola yang menyajikan prediksi bola, jadwal pertandingan, statistik, artikel sepak bola, mixparlay, singlebet, over under, handicap, BTTS, odds bola, dan berita bola terbaru.">
+<meta name="keywords" content="MABARBOLA, prediksi bola, jadwal bola, mixparlay, singlebet, bola jalan, over under, handicap, BTTS, odds bola, statistik sepak bola, berita bola, analisis bola">
+
+<link rel="canonical" href="https://mabarbola888-code.github.io/mabarbola-profile/">
+<link rel="icon" href="logo.png">
+
+<meta property="og:title" content="MABARBOLA - Prediksi Bola & Jadwal Sepak Bola">
+<meta property="og:description" content="Prediksi bola, jadwal pertandingan, statistik sepak bola, mixparlay, singlebet, handicap, over under, BTTS, dan berita bola terbaru.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mabarbola888-code.github.io/mabarbola-profile/">
+<meta property="og:image" content="https://mabarbola888-code.github.io/mabarbola-profile/logo.png">
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Organization",
+ "name":"MABARBOLA",
+ "url":"https://mabarbola888-code.github.io/mabarbola-profile/",
+ "logo":"https://mabarbola888-code.github.io/mabarbola-profile/logo.png",
+ "sameAs":[
+   "https://fansmabar.shop",
+   "https://supporterbola.com",
+   "https://medium.com/@mabarbola",
+   "https://fansmabar.blogspot.com"
+ ]
+}
+</script>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#0b0b0b;
+  color:#fff;
+}
+a{text-decoration:none}
+.container{
+  max-width:1150px;
+  margin:auto;
+  padding:0 20px;
+}
+.header{
+  background:radial-gradient(circle at top,#2a2200,#0b0b0b 55%);
+  padding:35px 0 55px;
+  border-bottom:1px solid #2f2f2f;
+}
+.nav{
+  display:flex;
+  justify-content:center;
+  gap:22px;
+  flex-wrap:wrap;
+  margin-bottom:45px;
+}
+.nav a{
+  color:#FFD700;
+  font-weight:700;
+  font-size:16px;
+}
+.nav a:hover{color:#fff}
+.hero{
+  text-align:center;
+}
+.logo{
+  width:110px;
+  height:110px;
+  border-radius:50%;
+  margin-bottom:15px;
+}
+.hero h1{
+  color:#FFD700;
+  font-size:56px;
+  margin:0;
+  letter-spacing:1px;
+}
+.hero p{
+  font-size:20px;
+  color:#eee;
+}
+.hero-desc{
+  max-width:800px;
+  margin:18px auto;
+  color:#d5d5d5;
+  line-height:1.7;
+}
+.btn{
+  display:inline-block;
+  background:#FFD700;
+  color:#000;
+  padding:14px 28px;
+  border-radius:10px;
+  font-weight:800;
+  margin:8px;
+}
+.btn:hover{
+  background:#fff;
+}
+.section{
+  padding:45px 0;
+}
+.section-title{
+  text-align:center;
+  color:#FFD700;
+  font-size:34px;
+  margin-bottom:28px;
+}
+.grid-3{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+.grid-2{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
+}
+.card{
+  background:#171717;
+  border:1px solid #333;
+  border-radius:18px;
+  padding:24px;
+  box-shadow:0 10px 28px rgba(0,0,0,.35);
+}
+.card h3{
+  color:#FFD700;
+  margin-top:0;
+}
+.card p,.card li{
+  color:#ddd;
+  line-height:1.6;
+}
+.match{
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+  border-bottom:1px solid #333;
+  padding:14px 0;
+  color:#eee;
+}
+.match:last-child{border-bottom:0}
+.score{
+  color:#FFD700;
+  font-weight:bold;
+}
+.keyword-box{
+  text-align:center;
+}
+.keyword-box span{
+  display:inline-block;
+  color:#FFD700;
+  border:1px solid #444;
+  background:#1c1c1c;
+  border-radius:30px;
+  padding:10px 17px;
+  margin:7px;
+  font-weight:700;
+}
+.stats{
+  text-align:left;
+}
+.stats li{
+  margin:10px 0;
+}
+.article-list a{
+  display:block;
+  color:#fff;
+  background:#171717;
+  border:1px solid #333;
+  border-radius:14px;
+  padding:18px;
+  margin:12px 0;
+}
+.article-list a:hover{
+  border-color:#FFD700;
+  color:#FFD700;
+}
+.cta{
+  background:linear-gradient(90deg,#151515,#241f00,#151515);
+  border-top:1px solid #333;
+  border-bottom:1px solid #333;
+  text-align:center;
+  padding:45px 20px;
+}
+.footer{
+  text-align:center;
+  padding:35px 20px;
+  color:#aaa;
+  font-size:14px;
+}
+.footer strong{
+  color:#FFD700;
+}
+@media(max-width:800px){
+  .hero h1{font-size:40px}
+  .grid-3,.grid-2{grid-template-columns:1fr}
+  .match{flex-direction:column;text-align:center}
+}
+</style>
 </head>
 
-<body style="font-family:Arial;text-align:center;padding:50px;background:#111;color:#fff;">
+<body>
 
-<h1>MABARBOLA</h1>
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="jadwal.html">Jadwal</a>
+      <a href="prediksi.html">Prediksi</a>
+      <a href="artikel.html">Artikel</a>
+    </nav>
 
-<p>Official Football Information Platform</p>
+    <div class="hero">
+      <img src="logo.png" alt="Logo MABARBOLA" class="logo">
+      <h1>MABARBOLA</h1>
+      <p><strong>Official Football Information Platform</strong></p>
+      <div class="hero-desc">
+        MABARBOLA menyajikan prediksi bola, jadwal pertandingan, statistik sepak bola,
+        analisis tim, berita bola terbaru, serta pembahasan istilah populer seperti
+        mixparlay, singlebet, over under, handicap, BTTS, bola jalan, dan odds bola.
+      </div>
+      <a class="btn" href="https://fansmabar.shop">Website Utama</a>
+      <a class="btn" href="https://supporterbola.com">Supporterbola</a>
+    </div>
+  </div>
+</header>
 
-<p>
-<a href="https://fansmabar.shop">Website Resmi</a><br><br>
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">🔥 Prediksi Terbaru</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Argentina vs Egypt</h3>
+        <p><strong>Prediksi:</strong> Argentina 2-0 Egypt</p>
+        <p>Argentina lebih unggul dari kualitas skuad, pengalaman, dan variasi serangan.</p>
+      </div>
+      <div class="card">
+        <h3>Colombia vs Switzerland</h3>
+        <p><strong>Prediksi:</strong> 1-1</p>
+        <p>Colombia berpeluang lolos lewat extra time atau adu penalti.</p>
+      </div>
+      <div class="card">
+        <h3>USA vs Belgium</h3>
+        <p><strong>Prediksi:</strong> Belgium 2-1 USA</p>
+        <p>Belgium lebih matang dari sisi pengalaman dan kedalaman skuad.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-<a href="https://supporterbola.com">Supporterbola</a><br><br>
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">📅 Jadwal Hari Ini</h2>
+    <div class="card">
+      <div class="match"><span>Argentina vs Egypt</span><span class="score">23:00 WIB</span></div>
+      <div class="match"><span>Colombia vs Switzerland</span><span class="score">03:00 WIB</span></div>
+      <div class="match"><span>USA vs Belgium</span><span class="score">07:00 WIB</span></div>
+      <div class="match"><span>Spain vs Portugal</span><span class="score">02:00 WIB</span></div>
+    </div>
+  </div>
+</section>
 
-<a href="https://medium.com/@mabarbola">Medium</a><br><br>
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">📈 Statistik Pilihan</h2>
+    <div class="grid-3">
+      <div class="card stats">
+        <h3>Top Skor</h3>
+        <ul>
+          <li>Messi</li>
+          <li>Mbappe</li>
+          <li>Haaland</li>
+        </ul>
+      </div>
+      <div class="card stats">
+        <h3>Top Assist</h3>
+        <ul>
+          <li>De Bruyne</li>
+          <li>Bellingham</li>
+          <li>Pedri</li>
+        </ul>
+      </div>
+      <div class="card stats">
+        <h3>Top Team</h3>
+        <ul>
+          <li>Argentina</li>
+          <li>Spain</li>
+          <li>France</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-<a href="https://fansmabar.blogspot.com">Blogger</a>
-</p>
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">🏆 Topik Populer</h2>
+    <div class="keyword-box">
+      <span>Mixparlay</span>
+      <span>Singlebet</span>
+      <span>Handicap</span>
+      <span>Over Under</span>
+      <span>BTTS</span>
+      <span>Bola Jalan</span>
+      <span>Odds Tinggi</span>
+      <span>Prediksi Bola</span>
+      <span>Jadwal Bola</span>
+      <span>Statistik Sepak Bola</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">📚 Artikel Terbaru</h2>
+    <div class="article-list">
+      <a href="artikel.html">Cara Main Mixparlay untuk Pemula</a>
+      <a href="artikel.html">Cara Membaca Handicap Asia</a>
+      <a href="artikel.html">Panduan Over Under Lengkap</a>
+      <a href="artikel.html">Arti FT, HT, BTTS, dan Over Under</a>
+      <a href="artikel.html">Cara Menghitung Odds Mixparlay</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2 style="color:#FFD700">Kunjungi Kanal Resmi MABARBOLA</h2>
+  <a class="btn" href="https://fansmabar.shop">Website Utama</a>
+  <a class="btn" href="https://supporterbola.com">Supporterbola</a>
+  <a class="btn" href="https://medium.com/@mabarbola">Medium</a>
+  <a class="btn" href="https://fansmabar.blogspot.com">Blogger</a>
+</section>
+
+<footer class="footer">
+  <p><strong>MABARBOLA</strong></p>
+  <p>Prediksi Bola • Jadwal Bola • Mixparlay • Singlebet • Handicap • Over Under • BTTS • Statistik Sepak Bola</p>
+  <p>© 2026 MABARBOLA. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
