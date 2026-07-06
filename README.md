@@ -26,5 +26,6 @@ https://fansmabar.blogspot.com
 
 ---
 
-Follow MABARBOLA for daily football updates.# mabarbola-profile
-Official MABARBOLA football information platform.
+Follow **MABARBOLA** for daily football updates.
+
+Official MABARBOLA Football Information Platform.
